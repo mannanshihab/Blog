@@ -1,0 +1,136 @@
+@import url(bootstrap.min.css);
+@import url(all.min.css);
+/*@import url(animate.css);*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('font-awesome.min.css');
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-family: Roboto, sans-sarif;
+	color: #222;
+}
+	.navbar-toggler 
+	{
+	     color: none !important; 
+	     border: none !important; 
+	}
+	.navbar-light .menu-btn  
+	{
+		position: absolute;
+		z-index: 3;
+		right: 15px;
+		top: 15px;
+	}
+	.navbar-light .btn-line 
+	{
+		width: 30px;
+		height: 3px;
+		margin: 0 0 5px 0;
+		background: #000;
+	}
+	.navbar-light .navbar-nav .nav-link:hover {
+	    color: #33cccc;
+	}
+	.navbar .fa {
+		font-size: 3rem;
+		margin-left: 1.2rem;
+	}
+	.nav-link{
+		font-size: 1.1em !important;
+		text-transform: uppercase;
+	}
+
+
+	.fa-check{
+		color: #33cccc;
+	}
+
+	.fa-edit {
+		font-size: 4rem;
+	}
+	.fa-chart-pie {
+		font-size: 4rem;
+	}
+	.fa-shopping-cart{
+		font-size: 4rem;
+	}
+
+
+	.padding{
+		padding: 15px;
+	}
+
+	#JOURNAL h2{
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	#JOURNAL h3{
+		font-size: 1.3rem;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	#JOURNAL p{
+		font-size: 1rem;
+	}
+	#JOURNAL .arrow{
+		float: right;
+	}
+	#CONTACT{
+		margin-top: 50px;
+	}
+
+	#CONTACT .btn-primary{
+		border-radius: 50%;
+	}
+	.bg-color{
+		background-color: #343A40;
+		color: #fff;
+	}
+	.bg-color :hover {
+		background-color: #33cccc;
+	    color: #fff;    
+	}
+	.btn-primary{
+		background-color: #33cccc !important;
+		border: none;
+		color:  #FFF;
+	}
+	.btn-dark{
+		border-radius: 50px;
+		
+	}
+	.btn-dark:hover{
+		border-color: #fff;
+	}
+	.bg-d6{
+		background-color: #D6D6D6;
+		color: #fff;
+	}
+
+	#conred .card{
+		border:none; 
+	}
+	#conred a{
+		font-size: 0.8rem;
+		border-bottom: 1px solid;
+		text-decoration: none;
+		color: #333;
+	}
+	#conred a:hover{
+		color: #33cccc;
+	}
+	#conred .card-title{
+		font-size:1.5rem; 
+		font-weight: bold;
+	}
+	footer{
+		height:50px;
+	}
+
+/*Bootstrap*/
+	.page-item.active .page-link {
+
+   	background-color: #33cccc !important ;
+	color: #fff;   
+}
